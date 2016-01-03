@@ -37,3 +37,21 @@ npm install
 npm run watch
 ```
 Portal will start on [http://localhost:8080](http://localhost:8080)
+
+
+## Sample Queries
+
+* Get user
+```
+{
+    user(id: "559645cd1a38532d14349240") {
+      fullname,
+      username,
+      email,
+      account {
+          name,
+          balance
+      }
+    }
+}
+```
