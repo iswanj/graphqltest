@@ -32,7 +32,7 @@ class Main extends React.Component{
                 ev.setState({
                     result: stResult.replace(/\n/g, "<br>").replace(/[ ]/g, "&nbsp;")
                 }, () => {
-                    ev.refs.editor.value = this.query;
+                    ev.refs.editor.value = ev.query;
                 });
               });
         }
@@ -61,11 +61,11 @@ class Main extends React.Component{
                 height: '100vh',
                 overflowY: 'auto',
                 float: 'right',
-                color: '#666',
+                color: '#444',
                 fontFamily: 'verdana',
-                fontSize: '.7em',
+                fontSize: '.8em',
                 padding: '1em',
-                lineHeight: '1.2222'
+                lineHeight: '1.4444'
             },
             submitController: {
                 height: '10vh',
