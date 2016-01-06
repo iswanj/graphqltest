@@ -5,6 +5,7 @@ Simple graphql server and IDE Portal
 ### To start server
 
 need iojs or >= Node.js v0.12.x
+need Mongo >= v2.6.9
 
 #### Install dependencies
 ```
