@@ -45,11 +45,11 @@ Portal will start on [http://localhost:8080](http://localhost:8080)
 ```
 {
     user(id: "559645cd1a38532d14349240") {
-      fullname,
-      username,
-      email,
+      fullname
+      username
+      email
       account {
-          name,
+          name
           balance
       }
     }
